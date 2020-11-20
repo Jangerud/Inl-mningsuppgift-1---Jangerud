@@ -69,7 +69,7 @@ namespace Inlämningsuppgift_1___Jangerud
                         }
                         break;
 
-                    //Så länge som första operatorn är / så sker första caset. Sedan tittar den värdet på andra operatorn.
+                    //Så länge som första operatorn är / så sker det här. Sedan tittar den värdet på andra operatorn.
                     case "/":
                         if (secondOp == "+")
                         {
@@ -101,7 +101,7 @@ namespace Inlämningsuppgift_1___Jangerud
                         }
                         break;
 
-                    //Så länge som första operatorn är + så sker första caset. Sedan tittar den värdet på andra operatorn.
+                    //Så länge som första operatorn är + så sker det här. Sedan tittar den värdet på andra operatorn.
                     case "+":
                         if (secondOp == "+")
                         {
@@ -133,7 +133,7 @@ namespace Inlämningsuppgift_1___Jangerud
                         }
                         break;
 
-                    //Så länge som första operatorn är - så sker första caset. Sedan tittar den värdet på andra operatorn.
+                    //Så länge som första operatorn är - så sker det här caset. Sedan tittar den värdet på andra operatorn.
                     case "-":
                         if (secondOp == "+")
                         {
