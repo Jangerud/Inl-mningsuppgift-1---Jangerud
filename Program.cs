@@ -39,6 +39,7 @@ namespace Inlämningsuppgift_1___Jangerud
 
                 switch (firstOp)
                 {
+                    //Så länge som första operatorn är * så sker första caset. Sedan tittar den värdet på andra operatorn.
                     case "*":
                         if (secondOp == "+")
                         {
@@ -67,6 +68,8 @@ namespace Inlämningsuppgift_1___Jangerud
 
                         }
                         break;
+
+                    //Så länge som första operatorn är / så sker första caset. Sedan tittar den värdet på andra operatorn.
                     case "/":
                         if (secondOp == "+")
                         {
@@ -97,6 +100,8 @@ namespace Inlämningsuppgift_1___Jangerud
 
                         }
                         break;
+
+                    //Så länge som första operatorn är + så sker första caset. Sedan tittar den värdet på andra operatorn.
                     case "+":
                         if (secondOp == "+")
                         {
@@ -127,6 +132,8 @@ namespace Inlämningsuppgift_1___Jangerud
 
                         }
                         break;
+
+                    //Så länge som första operatorn är - så sker första caset. Sedan tittar den värdet på andra operatorn.
                     case "-":
                         if (secondOp == "+")
                         {
@@ -157,6 +164,8 @@ namespace Inlämningsuppgift_1___Jangerud
 
                         }
                         break;
+
+                    //Här vill jag var ärlig med att jag inte riktigt visste vad jag skulle göra i default så blev en lite onödig utskrift kanske.
                     default:
                         Console.WriteLine("Try again");
                         break;
